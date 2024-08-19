@@ -7,7 +7,7 @@ import numpy as np
 
 
 class PlaceCells(object):
-    def __init__(self, cell_size=512, pos_range_min=-4.5, pos_range_max=4.5):
+    def __init__(self, cell_size=256, pos_range_min=-4.5, pos_range_max=4.5):
         self.cell_size = cell_size
         std = 0.04
         self.sigma_sq = std * std
